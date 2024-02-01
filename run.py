@@ -1,0 +1,6 @@
+
+
+def generatePost():
+
+
+    print(location)
