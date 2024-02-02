@@ -55,7 +55,6 @@ def generateDesc(object, location):
     )
 
     # Print the messages from the user and the assistant
-    print("###################################################### \n")
-    print(f"USER: {message.content[0].text.value}")
-    print(f"ASSISTANT: {all_messages.data[0].content[0].text.value}")
-    return message.content[0].text.value
+   ##print(f"USER: {message.content[0].text.value}")
+   # print(f"ASSISTANT: {all_messages.data[0].content[0].text.value}")
+    return all_messages.data[0].content[0].text.value
