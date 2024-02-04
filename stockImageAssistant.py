@@ -8,7 +8,7 @@ def generateDesc(object, location):
 
     instructions = """
     You create detailed descriptions for these tasks. The descriptions are used to generate an image with AI. So, every description needs a lot of detail. also, no hands are to be shown in the photos
-    You will also return an image title, a two-sentence summary of the image and the detailed descriptions which is at least 425 words. You will return all this information in JSON format 
+    You will also return an image title labled as "image_title", a two-sentence summary of the image labled as "image_summary". and the detailed descriptions which is at least 425 words labled as "detailed_description". You will return all this information in JSON format 
     """
 
 

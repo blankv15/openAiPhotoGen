@@ -1,8 +1,9 @@
-import requests
 
+import requests
+import os
+import shutil
 from ImageGen import Image
 import urllib.request
-
 
 def createImage(imageDesc, imageTitle):
     imagePrompt = imageDesc
@@ -12,4 +13,8 @@ def createImage(imageDesc, imageTitle):
     # newImage.getImageUrl()
 
     urllib.request.urlretrieve(imgURL, imageTitle.replace(" ", "") + ".jpg")
+    shutil.move(imageTitle.replace(" ", "") + ".jpg", 'C:/Users/Hamish Chhagan/Desktop/openAiPhotoGen/photos')
+
     return imgURL
+
+
