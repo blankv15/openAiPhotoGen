@@ -34,7 +34,7 @@ Follow these steps to get the application running on your local machine.
 
 1.  **Clone the Repository**
     ```
-    git clone [https://github.com/blankv15/openai-image-generator](https://github.com/blankv15/openai-image-generator)
+    git clone https://github.com/blankv15/openai-image-generator
     cd openai-image-generator
     ```
 
